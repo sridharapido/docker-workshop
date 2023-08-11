@@ -23,19 +23,6 @@ Verify that the docker client & server are working
 docker version
 ```
 
-## VS Code
-
-### Install VS Code
-
-[Click Here](https://code.visualstudio.com/download) to download the VS Code IDE
-
-### Install the VS Code Docker extension
-
-1. Open the Extensions view in VS Code (⇧⌘X)
-2. Search for docker to filter results and select Docker extension authored by Microsoft
-
-[Click Here](https://code.visualstudio.com/docs/containers/overview#_installation) for more details
-
 
 
 
