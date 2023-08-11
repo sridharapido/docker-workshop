@@ -55,7 +55,7 @@ CONTAINER ID   IMAGE                    COMMAND                  CREATED        
 5c5c3b36a3e6   docker/getting-started   "/docker-entrypoint.…"   1 minutes ago   Up 1 minutes   0.0.0.0:80->80/tcp   hardcore_margulis
 ```
 
-_NOTE : The Container ID & NAMES fields will be generated at random. Hence, they will most likely be different on your system_
+_NOTE : The Container ID & NAMES fields will be generated at random. Hence, they will be different on your system_
 
 ### The time for magic
 
