@@ -86,7 +86,7 @@ docker images
 Great! Let's now run a Docker container based on this image. To do that we are going to use the almighty docker run command.
 
 ```bash
-docker run -d -p 80:80 docker/getting-started
+docker run -d -p 80:7000 simple-http-server 
 ```
 
 ### Verify that the container is running
