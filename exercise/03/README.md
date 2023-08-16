@@ -1,6 +1,11 @@
 # Simple Python Server
 ## Pushing the image
 
+### Tag the image
+
+```
+docker image tag [your-dockerhub-id]/simple-http-server
+```
 
 ### Login
 
@@ -34,11 +39,16 @@ docker-credential-gcr configure-docker
 docker login asia.gcr.io/staging-data-12358
 export DOCKER_HOST="unix://$HOME/.colima/docker.sock"
 ```
+### Tag the image
+
+```
+docker image tag asia.gcr.io/staging-data-12358/simple-http-server:[your-name]
+```
 
 ### Check the size of the image
 
 ```
-docker push asia.gcr.io/staging-data-12358/java-http-server
+docker push asia.gcr.io/staging-data-12358/simple-http-server:[your-name]
 ```
 
 ### verify
